@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Corvona\n"
+"Project-Id-Version: Corvona Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-16 14:41+0000\n"
+"POT-Creation-Date: 2025-11-18 09:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,28 +16,55 @@ msgstr ""
 "X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.10\n"
 "X-Domain: corvona"
 
-#: inc/admin/theme-info.php:271
-msgid " Featured Slider"
+#: patterns/testimonials-pro.php:65
+msgid ""
+"  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore "
+"veritatis."
 msgstr ""
 
-#: inc/admin/theme-info.php:389
+#: patterns/footer.php:147
+msgid " All Rights Reserved"
+msgstr ""
+
+#: patterns/pricing-home2.php:49
+msgid " Choose Plans"
+msgstr ""
+
+#: patterns/banner-home2.php:23
+msgid " Strategy"
+msgstr ""
+
+#: inc/admin/theme-info.php:297
 msgid ""
 "\"Fearless Setup - Our Dedicated Team will have your website up in minutes"
+msgstr ""
+
+#: patterns/pricing.php:49 patterns/pricing.php:91 patterns/pricing.php:133
+msgid "$"
 msgstr ""
 
 #: inc/admin/theme-info.php:52
 msgid "( Limited blocks available )"
 msgstr ""
 
-#: patterns/contact.php:134
+#: patterns/contact-pro.php:134 patterns/contact.php:134
 msgid "+00000000"
 msgstr ""
 
-#: patterns/attributes.php:192
+#: patterns/banner-pro.php:19
+msgid "+1987 123456"
+msgstr ""
+
+#: patterns/attributes-pro.php:192 patterns/attributes.php:192
 msgid "+85% Improvement"
 msgstr ""
 
-#: patterns/services.php:64
+#: patterns/pricing.php:49 patterns/pricing.php:91 patterns/pricing.php:133
+msgid "/ month"
+msgstr ""
+
+#: patterns/features-pro.php:91 patterns/services.php:64
 msgid "01"
 msgstr ""
 
@@ -45,23 +72,30 @@ msgstr ""
 msgid "02"
 msgstr ""
 
-#: patterns/features.php:186 patterns/services.php:100
+#: patterns/features-pro.php:163 patterns/features.php:186
+#: patterns/services.php:100
 msgid "03"
 msgstr ""
 
-#: patterns/features.php:231 patterns/services.php:120
+#: patterns/features-pro.php:202 patterns/features.php:231
+#: patterns/services.php:120
 msgid "04"
 msgstr ""
 
-#: patterns/services.php:138
+#: patterns/features-pro.php:238 patterns/services.php:138
 msgid "05"
 msgstr ""
 
-#: patterns/features.php:315 patterns/services.php:156
+#: patterns/features-pro.php:274 patterns/features.php:315
+#: patterns/services-pro.php:156 patterns/services.php:156
 msgid "06"
 msgstr ""
 
-#: patterns/contact.php:48
+#: patterns/pricing.php:49
+msgid "12 "
+msgstr ""
+
+#: patterns/contact-pro.php:48 patterns/contact.php:48
 msgid "1247 Fifth Avenue, Manhattan, NY 10029"
 msgstr ""
 
@@ -69,11 +103,7 @@ msgstr ""
 msgid "128+"
 msgstr ""
 
-#: patterns/banner.php:61
-msgid "150"
-msgstr ""
-
-#: patterns/features.php:46
+#: patterns/features-pro.php:43 patterns/features.php:46
 msgid "150+"
 msgstr ""
 
@@ -81,23 +111,20 @@ msgstr ""
 msgid "185+"
 msgstr ""
 
-#: patterns/attributes.php:159 patterns/features.php:68
+#: patterns/attributes-pro.php:159 patterns/attributes.php:159
+#: patterns/features-pro.php:63 patterns/features.php:68
 msgid "22/7"
 msgstr ""
 
-#: patterns/attributes.php:89
+#: patterns/attributes-pro.php:89 patterns/attributes.php:89
 msgid "22/7 assistance"
 msgstr ""
 
-#: patterns/banner.php:81
-msgid "24"
-msgstr ""
-
-#: inc/admin/theme-info.php:151
+#: inc/admin/theme-info.php:95
 msgid "24/7 premium support"
 msgstr ""
 
-#: patterns/dont-miss.php:90
+#: patterns/dont-miss-pro.php:90 patterns/dont-miss.php:90
 msgid "245%"
 msgstr ""
 
@@ -105,100 +132,144 @@ msgstr ""
 msgid "32K+"
 msgstr ""
 
+#: patterns/pricing.php:91
+msgid "39"
+msgstr ""
+
 #: patterns/404.php:13
 msgid "404"
 msgstr ""
 
-#: patterns/attributes.php:149
+#: inc/admin/theme-info.php:106
+msgid "50+"
+msgstr ""
+
+#: patterns/attributes-pro.php:149 patterns/attributes.php:149
 msgid "50K+"
 msgstr ""
 
-#: patterns/banner.php:71
-msgid "95"
+#: patterns/aboutus-pro.php:75
+msgid "85"
 msgstr ""
 
-#: patterns/attributes.php:139
+#: patterns/attributes-pro.php:139 patterns/attributes.php:139
 msgid "99%"
 msgstr ""
 
-#: patterns/features.php:57
+#: patterns/features-pro.php:53 patterns/features.php:57
 msgid "99.9+"
 msgstr ""
 
-#: patterns/footer.php:41 patterns/footer.php:89
+#: patterns/aboutus-home2.php:27 patterns/aboutus-home2.php:52
+#: patterns/footer.php:57 patterns/footer.php:121
 msgid "About Us"
 msgstr ""
 
-#: functions.php:118
+#: patterns/elements.php:15 patterns/features-home2.php:15
+msgid "Active Users"
+msgstr ""
+
+#: functions.php:119
 msgid "Admin Icon"
 msgstr ""
 
-#: patterns/features.php:321
+#: patterns/features-pro.php:279 patterns/features.php:321
 msgid "Advance Analysis"
 msgstr ""
 
-#: inc/admin/theme-info.php:345
-msgid "Advanced Color Options"
-msgstr ""
-
-#: patterns/attributes.php:49
+#: patterns/attributes-pro.php:49 patterns/attributes.php:49
 msgid "Advanced Protection"
 msgstr ""
 
-#: inc/admin/theme-info.php:206
+#: inc/admin/theme-info.php:150
 msgid "Advanced Templates"
 msgstr ""
 
-#: inc/admin/theme-info.php:68
-msgid "All Pre-Built Template"
+#: patterns/testimonials-pro.php:46 patterns/testimonials.php:46
+msgid "Amanda Wilson"
 msgstr ""
 
-#: inc/admin/theme-info.php:114
+#: inc/admin/theme-info.php:249
 msgid "Animation"
+msgstr ""
+
+#: patterns/pricing-home2.php:35
+msgid "Annual"
 msgstr ""
 
 #: patterns/404.php:26
 msgid "Back to Home"
 msgstr ""
 
-#: inc/admin/theme-info.php:124
-msgid "Back to Top Button (Scrool to Top)"
-msgstr ""
-
-#: inc/admin/theme-info.php:197
+#: inc/admin/theme-info.php:141
 msgid "Better Customization Without Code"
 msgstr ""
 
-#: inc/admin/theme-info.php:224
+#: inc/admin/theme-info.php:104
 msgid "Block Patterns"
 msgstr ""
 
-#: inc/admin/theme-info.php:317
-msgid "Blog (block)"
+#: inc/tgm-plugin/tgmpa-hook.php:69
+msgid "Blocks Animation"
 msgstr ""
 
-#: patterns/contact.php:110
+#: patterns/banner-home2.php:23
+msgid "Business"
+msgstr ""
+
+#: patterns/contact-pro.php:110 patterns/contact.php:110
 msgid "Business Hours"
 msgstr ""
 
-#: patterns/contact.php:130
+#: patterns/functions-pro.php:31
+msgid "Business Strategy"
+msgstr ""
+
+#: patterns/aboutus-home2.php:42 patterns/aboutus-pro.php:71
+msgid "Business Strategy Consulting"
+msgstr ""
+
+#: patterns/contact-pro.php:130 patterns/contact.php:130
 msgid "Call Direct"
 msgstr ""
 
-#: patterns/faq.php:56
+#: patterns/call-to-action.php:15
+msgid "Call to Action"
+msgstr ""
+
+#: patterns/faq-pro.php:46 patterns/faq-pro.php:59 patterns/faq.php:56
 msgid "Can't find answer to your question?"
+msgstr ""
+
+#: patterns/banner-home2.php:23
+msgid "Carrier"
 msgstr ""
 
 #: patterns/sidebar.php:81
 msgid "Categories"
 msgstr ""
 
-#: patterns/banner.php:75
-msgid "Client Satisfaction"
+#: patterns/pricing-pro.php:68 patterns/pricing-pro.php:110
+#: patterns/pricing-pro.php:152 patterns/pricing.php:68
+#: patterns/pricing.php:110 patterns/pricing.php:152
+msgid "Choose Plan"
 msgstr ""
 
-#: patterns/dont-miss.php:45 patterns/features.php:192
+#: patterns/pricing-home2.php:95 patterns/pricing-home2.php:141
+msgid "Choose Plans"
+msgstr ""
+
+#: patterns/portfolio.php:42
+msgid "Clarity Project"
+msgstr ""
+
+#: patterns/dont-miss-pro.php:45 patterns/dont-miss.php:45
+#: patterns/features-pro.php:168 patterns/features.php:192
 msgid "Cloud Integration"
+msgstr ""
+
+#: patterns/aboutus-home2.php:32
+msgid "Collaborate With Our Expert Consultants Now."
 msgstr ""
 
 #: theme.json:1 styles/dark-cyan.json:1 styles/energetic-cyan.json:1
@@ -365,77 +436,105 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#: patterns/footer.php:97
+#: patterns/elements.php:21 patterns/features-home2.php:21
+msgid "Complete Projects"
+msgstr ""
+
+#: patterns/services-home2.php:133
+msgid "Compliance Consulting"
+msgstr ""
+
+#: patterns/footer.php:129
 msgid "Conditions"
 msgstr ""
 
-#: inc/admin/theme-info.php:18
-msgid ""
-"Consultica - A Multipurpose, browser & device-friendly Full Site Editing "
-"Theme for WordPress"
-msgstr ""
-
-#: inc/admin/theme-info.php:59
-msgid "Consultica Pro ( More Blocks & Settings available )"
-msgstr ""
-
-#: patterns/contact.php:18
+#: patterns/contact-pro.php:18 patterns/contact.php:18
 msgid "Contact"
 msgstr ""
 
-#: inc/admin/theme-info.php:142
-msgid "Contact Form"
-msgstr ""
-
-#: patterns/about-us.php:108 patterns/faq.php:65 patterns/footer.php:49
-#: patterns/footer.php:101
+#: patterns/about-us.php:108 patterns/banner-home2.php:34
+#: patterns/banner.php:59 patterns/call-to-action.php:38
+#: patterns/contact-home2.php:14 patterns/faq-pro.php:68 patterns/faq.php:65
+#: patterns/footer.php:65 patterns/footer.php:133
 msgid "Contact Us"
 msgstr ""
 
-#: patterns/footer.php:73
+#: patterns/faq-pro.php:41
+msgid ""
+"Contact us via our website or phone. Well schedule a free consultation to "
+"understand your needs and recommend the best way forward."
+msgstr ""
+
+#: patterns/pricing-home2.php:56 patterns/pricing-home2.php:60
+#: patterns/pricing-home2.php:64 patterns/pricing-home2.php:68
+#: patterns/pricing-home2.php:102 patterns/pricing-home2.php:106
+#: patterns/pricing-home2.php:110 patterns/pricing-home2.php:114
+#: patterns/pricing-home2.php:148 patterns/pricing-home2.php:152
+#: patterns/pricing-home2.php:156 patterns/pricing-home2.php:160
+msgid "Conubia fuga irure ab primis."
+msgstr ""
+
+#: patterns/faq-pro.php:47
+msgid "Convey similar professional or planning-oriented themes"
+msgstr ""
+
+#: patterns/footer.php:97
 msgid "Cookies Policy"
 msgstr ""
 
-#. Name of the theme
-msgid "Corvona"
+#: patterns/functions-pro.php:43
+msgid "Corporate Vision"
 msgstr ""
 
 #: inc/block-patterns.php:19
 msgid "corvona"
 msgstr ""
 
-#. Description of the theme
+#: inc/admin/theme-info.php:18
 msgid ""
-"Corvona is a clean, minimal, and performance-focused Full Site Editing (FSE) "
-"WordPress theme designed to help you build modern, professional, and "
-"visually appealing websites—without writing a single line of code. Fully "
-"powered by the WordPress block editor, Corvona allows you to design unique "
-"layouts and customize every part of your site, including headers, footers, "
-"templates, and global styles. This lightweight and speed-optimized theme is "
-"perfect for blogs, small businesses, startups, agencies, law firms, "
-"consulting companies, digital marketing teams, IT solutions, SaaS products, "
-"fintech firms, tech companies, and a wide range of corporate and business "
-"websites.Corvona comes packed with multiple templates, custom patterns, and "
-"style variations, making it incredibly flexible and easy to adapt to any "
-"brand identity or business need. Whether you're building a clean minimalist "
-"site or a bold corporate presence, Corvona helps you achieve a polished "
-"result effortlessly. Check the real demo:  https://demos.trendthemeswp."
-"com/corvona"
+"corvona - A Multipurpose, browser & device-friendly Full Site Editing Theme "
+"for WordPress"
+msgstr ""
+
+#. Name of the theme
+#: inc/block-patterns.php:20
+msgid "Corvona Pro"
 msgstr ""
 
 #: inc/admin/theme-notice.php:2
-msgid "Corvona Pro"
+msgid "corvona Pro"
+msgstr ""
+
+#: inc/admin/theme-info.php:59
+msgid "corvona Pro ( More Blocks & Settings available )"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"corvona Pro is a cutting-edge Full Site Editing (FSE) WordPress block theme "
+"designed to empower businesses of every kind—from bold startups and creative "
+"studios to seasoned consultants and corporate enterprises. With its sleek "
+"design, exceptional flexibility, and intuitive block-based structure, "
+"corvona Pro makes it effortless to craft a professional, high-impact online "
+"presence. Whether you're launching your first website or rebranding a "
+"growing business, corvona Pro gives you the tools and freedom to stand out "
+"and succeed in the digital world.  Check the real demo:  https://demos."
+"trendthemeswp.com/corvona-pro"
 msgstr ""
 
 #: class/admin-info.php:24 class/admin-info.php:25
 msgid "corvona Theme"
 msgstr ""
 
-#: patterns/about-us.php:31
+#: patterns/banner-home2.php:18 patterns/banner.php:40
+msgid "corvona Welcomes You"
+msgstr ""
+
+#: patterns/about-us.php:31 patterns/aboutus-pro.php:31
 msgid "Crafting innovative solutions since 2010"
 msgstr ""
 
-#: patterns/services.php:70
+#: patterns/services-pro.php:70 patterns/services.php:70
 msgid "Custom Application Development"
 msgstr ""
 
@@ -459,81 +558,127 @@ msgctxt "Custom template name"
 msgid "Single Product"
 msgstr ""
 
-#: patterns/attributes.php:29
+#: patterns/attributes-pro.php:29 patterns/attributes.php:29
 msgid "Cutting-edge solution"
 msgstr ""
 
-#: patterns/features.php:331
+#: patterns/features-pro.php:289 patterns/features.php:331
 msgid "Data"
 msgstr ""
 
-#: patterns/services.php:162
+#: patterns/testimonials-pro.php:74 patterns/testimonials.php:74
+msgid "Data Analyst"
+msgstr ""
+
+#: patterns/services-pro.php:162 patterns/services.php:162
 msgid "Data Intelligence"
 msgstr ""
 
-#: inc/admin/theme-info.php:160
-msgid "Different niches starter sites"
-msgstr ""
-
-#: patterns/services.php:126
+#: patterns/services-pro.php:126 patterns/services.php:126
 msgid "Digital Marketing"
 msgstr ""
 
-#: patterns/dont-miss.php:17
+#: patterns/dont-miss-pro.php:17 patterns/dont-miss.php:17
 msgid "DON'T MISS !"
 msgstr ""
 
-#: inc/admin/theme-info.php:261
+#: inc/admin/theme-info.php:189
 msgid "Drag and Drop functionality"
 msgstr ""
 
-#: inc/admin/theme-info.php:77
+#: inc/admin/theme-info.php:68
 msgid "Easy Setup"
 msgstr ""
 
-#: patterns/team.php:120
+#: patterns/team-pro.php:120 patterns/team.php:120
 msgid "Edward Montague"
 msgstr ""
 
-#: inc/admin/theme-info.php:363
-msgid "Enable Sponsor Slider"
+#: patterns/portfolio.php:66
+msgid "Elevate Project"
 msgstr ""
 
-#: inc/admin/theme-info.php:372
+#: patterns/contact-home2.php:48
+msgid "Email"
+msgstr ""
+
+#: inc/admin/theme-info.php:239
 msgid "Enable Sticky Header"
 msgstr ""
 
-#: inc/admin/theme-info.php:354
-msgid "Enable Testimonial Slider"
+#: patterns/banner-pro.php:73
+msgid "Enhance your digital presence"
 msgstr ""
 
-#: patterns/features.php:237
+#: patterns/features-pro.php:207 patterns/features.php:237
 msgid "Enterprice Security"
 msgstr ""
 
-#: patterns/about-us.php:46
+#: patterns/pricing-pro.php:125 patterns/pricing.php:125
+msgid "Enterprise"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:64
+msgid "Essential Blocks"
+msgstr ""
+
+#: patterns/about-us.php:46 patterns/aboutus-pro.php:46
 msgid "Excellence"
 msgstr ""
 
-#: patterns/services.php:46
+#: patterns/banner-home2.php:23
+msgid "Expert Guidance to Transform Your"
+msgstr ""
+
+#: patterns/services-home2.php:19
+msgid "Explore Our Consulting Offerings"
+msgstr ""
+
+#: patterns/services-pro.php:46 patterns/services.php:46
 msgid "Explore Our Work"
 msgstr ""
 
+#: patterns/features-pro.php:18 patterns/features-pro.php:47
 #: patterns/features.php:20 patterns/features.php:50
 #: inc/admin/theme-info.php:56
 msgid "Features"
 msgstr ""
 
-#: patterns/contact.php:78
+#: patterns/services-home2.php:83
+msgid "Financial Consulting"
+msgstr ""
+
+#: patterns/contact-home2.php:32
+msgid "First Name"
+msgstr ""
+
+#: patterns/contact-pro.php:78 patterns/contact.php:78
 msgid "Follow Our Journey"
 msgstr ""
 
 #: theme.json:1
 msgctxt "Font family name"
-msgid "Raleway"
+msgid "Caveat"
 msgstr ""
 
-#: patterns/team.php:154
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: patterns/pricing-pro.php:45 patterns/pricing.php:45
+msgid "For Individuals just getting started"
+msgstr ""
+
+#: patterns/pricing-pro.php:129 patterns/pricing.php:129
+msgid "For Large Organization and corporations"
+msgstr ""
+
+#: patterns/pricing-pro.php:87 patterns/pricing.php:87
+msgid "For small teams and growing businesses"
+msgstr ""
+
+#: patterns/team-pro.php:154 patterns/team.php:154
 msgid "Francesca De Luca"
 msgstr ""
 
@@ -545,15 +690,15 @@ msgstr ""
 msgid "Free Vs Pro"
 msgstr ""
 
-#: inc/admin/theme-info.php:252
+#: inc/admin/theme-info.php:180
 msgid "Frequent Updates"
 msgstr ""
 
-#: patterns/footer.php:77
+#: patterns/footer.php:101
 msgid "Frequently asked"
 msgstr ""
 
-#: patterns/footer.php:69
+#: patterns/footer.php:93
 msgid "Funds"
 msgstr ""
 
@@ -562,32 +707,32 @@ msgstr ""
 msgid "Fusce ac felis sit amet"
 msgstr ""
 
-#: patterns/footer.php:16 patterns/footer.php:53
+#: patterns/footer.php:17 patterns/footer.php:69
 msgid "Gallery"
 msgstr ""
 
 #: inc/admin/theme-notice.php:5
-msgid "Get Corvona Pro"
+msgid "Get corvona Pro"
 msgstr ""
 
-#: inc/admin/theme-info.php:396
+#: patterns/contact-home2.php:19
+msgid "Get in touch today."
+msgstr ""
+
+#: inc/admin/theme-info.php:304
 msgid "Get Premium Version"
 msgstr ""
 
-#: patterns/banner.php:47
+#: patterns/banner-home2.php:34 patterns/banner-pro.php:85
 msgid "Get Started"
 msgstr ""
 
-#: inc/admin/theme-info.php:392
+#: inc/admin/theme-info.php:300
 msgid "Get Support"
 msgstr ""
 
-#: inc/admin/theme-info.php:233
+#: inc/admin/theme-info.php:169
 msgid "Global Style Variations"
-msgstr ""
-
-#: inc/admin/theme-info.php:93
-msgid "Good"
 msgstr ""
 
 #: theme.json:1
@@ -650,24 +795,44 @@ msgctxt "Gradient name"
 msgid "Vertical soft sandstone to white"
 msgstr ""
 
-#: patterns/about-us.php:60
+#: patterns/about-us.php:60 patterns/aboutus-pro.php:60
 msgid "Growth"
 msgstr ""
 
-#: patterns/dont-miss.php:94
+#: patterns/functions-pro.php:37
+msgid "Growth Plan"
+msgstr ""
+
+#: patterns/dont-miss-pro.php:94 patterns/dont-miss.php:94
 msgid "Growth Rate"
 msgstr ""
 
-#: patterns/team.php:86
+#: inc/admin/theme-info.php:227
+msgid "Gutenberg block editor"
+msgstr ""
+
+#: patterns/team-pro.php:86 patterns/team.php:86
 msgid "Hans Bauer"
 msgstr ""
 
-#: inc/admin/theme-info.php:153
+#: inc/admin/theme-info.php:97
 msgid "High-Priority Dedicated Support"
 msgstr ""
 
-#: patterns/footer.php:45
+#: patterns/portfolio.php:19
+msgid "Highlights of Our Portfolio"
+msgstr ""
+
+#: patterns/footer.php:61
 msgid "Home"
+msgstr ""
+
+#: patterns/faq-pro.php:40
+msgid "How do we get started?"
+msgstr ""
+
+#: patterns/faq-pro.php:22
+msgid "How do you work?"
 msgstr ""
 
 #. Author URI of the theme
@@ -675,38 +840,48 @@ msgid "https://trendthemeswp.com"
 msgstr ""
 
 #. URI of the theme
-msgid "https://trendthemeswp.com/products/corvona/"
+msgid "https://trendthemeswp.com/products/corvona-pro/"
 msgstr ""
 
-#: inc/admin/theme-info.php:133
+#: inc/admin/theme-info.php:269
 msgid "Icon Picker"
 msgstr ""
 
-#: patterns/services.php:106
+#: patterns/services-pro.php:106 patterns/services.php:106
 msgid "Identity Design"
 msgstr ""
 
-#: inc/admin/theme-info.php:289
+#: patterns/process-home2.php:173
+msgid "Implementation"
+msgstr ""
+
+#: inc/admin/theme-info.php:209
 msgid "Import components/ templates"
 msgstr ""
 
+#: patterns/banner-pro.php:23 patterns/contact-pro.php:68
 #: patterns/contact.php:68
 msgid "info@example.com"
 msgstr ""
 
-#: patterns/footer.php:60
+#: patterns/footer.php:77
 msgid "Informations"
 msgstr ""
 
-#: patterns/about-us.php:76 patterns/attributes.php:25
+#: patterns/process-home2.php:39
+msgid "Initial Consultation"
+msgstr ""
+
+#: patterns/about-us.php:76 patterns/attributes-pro.php:25
+#: patterns/attributes.php:25
 msgid "Innovation"
 msgstr ""
 
-#: patterns/attributes.php:107
+#: patterns/attributes-pro.php:107 patterns/attributes.php:107
 msgid "Inovation Excellence"
 msgstr ""
 
-#: patterns/features.php:338
+#: patterns/features-pro.php:295 patterns/features.php:338
 msgid "Insights"
 msgstr ""
 
@@ -716,57 +891,105 @@ msgid ""
 "return to homepage."
 msgstr ""
 
-#: patterns/team.php:52
+#: patterns/services-home2.php:59
+msgid "IT/Technology Consulting"
+msgstr ""
+
+#: patterns/testimonials-pro.php:70 patterns/testimonials.php:70
+msgid "James Anderson"
+msgstr ""
+
+#: patterns/team-pro.php:52 patterns/team.php:52
 msgid "Json Parker"
 msgstr ""
 
-#: patterns/team.php:56
+#: patterns/contact-home2.php:38
+msgid "Last Name "
+msgstr ""
+
+#: patterns/post-list.php:19
+msgid "latest from our Blogs"
+msgstr ""
+
+#: patterns/team-pro.php:56 patterns/team.php:56
 msgid "Lead Developer"
 msgstr ""
 
-#: patterns/about-us.php:102 patterns/attributes.php:170
+#: patterns/about-us.php:102 patterns/attributes-pro.php:170
+#: patterns/attributes.php:170 patterns/dont-miss-pro.php:71
 #: patterns/dont-miss.php:71
 msgid "Learn More"
 msgstr ""
 
-#: patterns/banner.php:23 patterns/header.php:20
+#: patterns/banner-pro.php:61 patterns/banner.php:24 patterns/header.php:20
 msgid "Let's Talk"
 msgstr ""
 
-#: inc/admin/theme-info.php:178
+#: inc/admin/theme-info.php:122
 msgid "Lifetime Updates"
 msgstr ""
 
-#: patterns/features.php:108
+#: patterns/features-pro.php:96 patterns/features.php:108
 msgid "Lighting Fast Performance"
 msgstr ""
 
-#: patterns/attributes.php:69
+#: patterns/attributes-pro.php:69 patterns/attributes.php:69
 msgid "Lighting fast speed"
 msgstr ""
 
-#: inc/admin/theme-info.php:65 inc/admin/theme-info.php:277
-#: inc/admin/theme-info.php:286 inc/admin/theme-info.php:314
-#: inc/admin/theme-info.php:333 inc/admin/theme-info.php:342
+#: inc/admin/theme-info.php:197 inc/admin/theme-info.php:206
 msgid "Limited"
 msgstr ""
 
-#: patterns/footer.php:84
+#: patterns/footer.php:109
 msgid "Links"
 msgstr ""
 
-#: patterns/team.php:28
+#: patterns/team-pro.php:28 patterns/team.php:28
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus "
 "luctus nec ullamcorper mattis pulvinar dapibus leo."
 msgstr ""
 
-#: patterns/contact.php:114
+#: patterns/services-home2.php:35
+msgid "Management Consulting"
+msgstr ""
+
+#: patterns/portfolio.php:62 patterns/portfolio.php:86
+msgid "Market Expansion"
+msgstr ""
+
+#: patterns/services-home2.php:109
+msgid "Marketing Consulting"
+msgstr ""
+
+#: patterns/contact-home2.php:52
+msgid "Message"
+msgstr ""
+
+#: patterns/pricing-home2.php:44 patterns/pricing-home2.php:90
+#: patterns/pricing-home2.php:136
+msgid "Minim recusandae, volutpat magna, class, adipiscing, consec."
+msgstr ""
+
+#: patterns/contact-pro.php:114 patterns/contact.php:114
 msgid "mon-sat: (8AM -7 PM)"
 msgstr ""
 
-#: inc/admin/theme-info.php:215
+#: patterns/pricing-pro.php:49 patterns/pricing-pro.php:133
+msgid "month"
+msgstr ""
+
+#: patterns/elements.php:27
+msgid "Months of Experience"
+msgstr ""
+
+#: inc/admin/theme-info.php:159
 msgid "Multiple Header/Footer Layouts"
+msgstr ""
+
+#: patterns/process-home2.php:87
+msgid "Needs Assessment"
 msgstr ""
 
 #: patterns/functions.php:35 patterns/functions.php:45
@@ -774,32 +997,83 @@ msgstr ""
 msgid "Nemo enim ipsam"
 msgstr ""
 
-#: inc/admin/theme-info.php:187
+#: inc/admin/theme-info.php:131
 msgid "No coding required"
 msgstr ""
 
-#: inc/admin/theme-info.php:298
+#: inc/admin/theme-info.php:218
 msgid "One Click Demo Import"
 msgstr ""
 
-#: patterns/team.php:124
+#: patterns/portfolio.php:38
+msgid "Operational Efficiency"
+msgstr ""
+
+#: patterns/aboutus-home2.php:46 patterns/aboutus-pro.php:75
+msgid "Operational Improvement Consulting"
+msgstr ""
+
+#: patterns/services-home2.php:157
+msgid "Operations Consulting"
+msgstr ""
+
+#: patterns/team-pro.php:124 patterns/team.php:124
 msgid "Operations Manager"
 msgstr ""
 
-#: patterns/features.php:125 patterns/features.php:209
-#: patterns/features.php:254
+#: patterns/features-pro.php:112 patterns/features-pro.php:185
+#: patterns/features-pro.php:223 patterns/features.php:125
+#: patterns/features.php:209 patterns/features.php:254
 msgid "Optimization"
 msgstr ""
 
-#: patterns/team.php:18
+#: patterns/post-list.php:14
+msgid "Our Blogs"
+msgstr ""
+
+#: patterns/parter-home2.php:14
+msgid "Our Clients"
+msgstr ""
+
+#: patterns/process-home2.php:19
+msgid "Our Consulting Process"
+msgstr ""
+
+#: patterns/faq-pro.php:35
+msgid ""
+"Our fees depend on project scope, duration, and complexity. We offer "
+"transparent pricing with flexible packages to match your budget and needs."
+msgstr ""
+
+#: patterns/pricing-home2.php:14
+msgid "Our Plan"
+msgstr ""
+
+#: patterns/portfolio.php:14
+msgid "Our Portfolio"
+msgstr ""
+
+#: patterns/team-pro.php:18 patterns/team.php:18
 msgid "Our Professional Team"
 msgstr ""
 
-#: patterns/about-us.php:21
+#: patterns/services-home2.php:14
+msgid "Our Services"
+msgstr ""
+
+#: patterns/about-us.php:21 patterns/aboutus-pro.php:21
 msgid "Our Story"
 msgstr ""
 
-#: patterns/banner.php:53
+#: patterns/parter-home2.php:19
+msgid "Our Trusted Partner"
+msgstr ""
+
+#: patterns/banner-home2.php:40
+msgid "Our Valued Partner"
+msgstr ""
+
+#: patterns/banner-pro.php:91
 msgid "Our Work"
 msgstr ""
 
@@ -807,7 +1081,7 @@ msgstr ""
 msgid "Page not found"
 msgstr ""
 
-#: patterns/footer.php:36
+#: patterns/footer.php:45
 msgid "Pages"
 msgstr ""
 
@@ -821,9 +1095,24 @@ msgctxt "Pattern title"
 msgid "About Us"
 msgstr ""
 
+#: patterns/aboutus-home2.php:2
+msgctxt "Pattern title"
+msgid "Aboutus Home2"
+msgstr ""
+
+#: patterns/aboutus-pro.php:2
+msgctxt "Pattern title"
+msgid "AboutUs Pro"
+msgstr ""
+
 #: patterns/attributes.php:2
 msgctxt "Pattern title"
 msgid "Attributes"
+msgstr ""
+
+#: patterns/attributes-pro.php:2
+msgctxt "Pattern title"
+msgid "Attributes Pro"
 msgstr ""
 
 #: patterns/banner.php:2
@@ -831,9 +1120,34 @@ msgctxt "Pattern title"
 msgid "Banner"
 msgstr ""
 
+#: patterns/banner-home2.php:2
+msgctxt "Pattern title"
+msgid "Banner Home2"
+msgstr ""
+
+#: patterns/banner-pro.php:2
+msgctxt "Pattern title"
+msgid "Banner Pro"
+msgstr ""
+
+#: patterns/call-to-action.php:2
+msgctxt "Pattern title"
+msgid "Call to Action Pro"
+msgstr ""
+
 #: patterns/contact.php:2
 msgctxt "Pattern title"
 msgid "Contact"
+msgstr ""
+
+#: patterns/contact-pro.php:2
+msgctxt "Pattern title"
+msgid "Contact Pro"
+msgstr ""
+
+#: patterns/contact-home2.php:2
+msgctxt "Pattern title"
+msgid "Contact-home2"
 msgstr ""
 
 #: patterns/dont-miss.php:2
@@ -841,14 +1155,39 @@ msgctxt "Pattern title"
 msgid "Dont Miss"
 msgstr ""
 
+#: patterns/dont-miss-pro.php:2
+msgctxt "Pattern title"
+msgid "Dont Miss Pro"
+msgstr ""
+
+#: patterns/elements.php:2
+msgctxt "Pattern title"
+msgid "Elements"
+msgstr ""
+
 #: patterns/faq.php:2
 msgctxt "Pattern title"
 msgid "FAQ"
 msgstr ""
 
+#: patterns/faq-pro.php:2
+msgctxt "Pattern title"
+msgid "FAQ Pro"
+msgstr ""
+
 #: patterns/features.php:3
 msgctxt "Pattern title"
 msgid "Features"
+msgstr ""
+
+#: patterns/features-home2.php:2
+msgctxt "Pattern title"
+msgid "Features Home2"
+msgstr ""
+
+#: patterns/features-pro.php:2
+msgctxt "Pattern title"
+msgid "Features Pro"
 msgstr ""
 
 #: patterns/footer.php:2
@@ -861,6 +1200,11 @@ msgctxt "Pattern title"
 msgid "Functions"
 msgstr ""
 
+#: patterns/functions-pro.php:2
+msgctxt "Pattern title"
+msgid "Functions Pro"
+msgstr ""
+
 #: patterns/header.php:2
 msgctxt "Pattern title"
 msgid "Header"
@@ -871,9 +1215,54 @@ msgctxt "Pattern title"
 msgid "Page Banner"
 msgstr ""
 
+#: patterns/parter-home2.php:2
+msgctxt "Pattern title"
+msgid "Parter Home2"
+msgstr ""
+
+#: patterns/portfolio.php:2
+msgctxt "Pattern title"
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/post-list.php:2
+msgctxt "Pattern title"
+msgid "Post List Pro"
+msgstr ""
+
+#: patterns/pricing.php:2
+msgctxt "Pattern title"
+msgid "Pricing"
+msgstr ""
+
+#: patterns/pricing-home2.php:2
+msgctxt "Pattern title"
+msgid "Pricing Home2"
+msgstr ""
+
+#: patterns/pricing-pro.php:2
+msgctxt "Pattern title"
+msgid "Pricing Pro"
+msgstr ""
+
+#: patterns/process-home2.php:2
+msgctxt "Pattern title"
+msgid "Process Home2"
+msgstr ""
+
 #: patterns/services.php:2
 msgctxt "Pattern title"
 msgid "Services"
+msgstr ""
+
+#: patterns/services-home2.php:2
+msgctxt "Pattern title"
+msgid "Services Home2"
+msgstr ""
+
+#: patterns/services-pro.php:2
+msgctxt "Pattern title"
+msgid "Services Pro"
 msgstr ""
 
 #: patterns/sidebar.php:2
@@ -886,11 +1275,36 @@ msgctxt "Pattern title"
 msgid "Team"
 msgstr ""
 
-#: patterns/attributes.php:188
+#: patterns/team-home2.php:2
+msgctxt "Pattern title"
+msgid "Team Home 2"
+msgstr ""
+
+#: patterns/team-pro.php:2
+msgctxt "Pattern title"
+msgid "Team Pro"
+msgstr ""
+
+#: patterns/testimonials.php:2
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials-home2.php:2
+msgctxt "Pattern title"
+msgid "Testimonials Home2"
+msgstr ""
+
+#: patterns/testimonials-pro.php:2
+msgctxt "Pattern title"
+msgid "Testimonials Pro"
+msgstr ""
+
+#: patterns/attributes-pro.php:188 patterns/attributes.php:188
 msgid "PERFORMANCE"
 msgstr ""
 
-#: patterns/attributes.php:65
+#: patterns/attributes-pro.php:65 patterns/attributes.php:65
 msgid "Performance"
 msgstr ""
 
@@ -901,15 +1315,27 @@ msgid ""
 "lorem. Pellentesque auctor neque nec urna. Nunc nec neque."
 msgstr ""
 
-#: patterns/features.php:36
+#: inc/admin/theme-info.php:278
+msgid "Portfolio Pattern"
+msgstr ""
+
+#: patterns/features-pro.php:33 patterns/features.php:36
 msgid "Powerful features to accelerate growth"
 msgstr ""
 
-#: patterns/dont-miss.php:35 inc/admin/theme-info.php:243
+#: patterns/pricing-home2.php:127
+msgid "Premium"
+msgstr ""
+
+#: patterns/dont-miss-pro.php:35 patterns/dont-miss.php:35
 msgid "Premium Support"
 msgstr ""
 
-#: patterns/footer.php:93
+#: patterns/pricing-pro.php:18 patterns/pricing.php:18
+msgid "Pricing"
+msgstr ""
+
+#: patterns/footer.php:125
 msgid "Privacy Policy"
 msgstr ""
 
@@ -917,31 +1343,45 @@ msgstr ""
 msgid "Pro Live Demo"
 msgstr ""
 
-#: patterns/team.php:158
+#: patterns/process-home2.php:14
+msgid "Process Steps"
+msgstr ""
+
+#: patterns/team-pro.php:158 patterns/team.php:158
 msgid "Product Manager"
 msgstr ""
 
-#: inc/admin/theme-info.php:308
-msgid "Profile card (Block)"
+#: patterns/pricing-pro.php:83 patterns/pricing.php:83
+msgid "Professional"
 msgstr ""
 
-#: patterns/team.php:90
+#: patterns/elements.php:33 patterns/features-home2.php:33
+msgid "Professional Team"
+msgstr ""
+
+#: patterns/team-pro.php:90 patterns/team.php:90
 msgid "Project Manager"
 msgstr ""
 
-#: patterns/banner.php:65
-msgid "Projects Completed"
-msgstr ""
-
-#: patterns/features.php:167
+#: patterns/features-pro.php:148 patterns/features.php:167
 msgid "Protected"
 msgstr ""
 
-#: inc/admin/theme-info.php:386
+#: inc/admin/theme-info.php:294
 msgid "Questions Welcome - We're here to help"
 msgstr ""
 
-#: patterns/dont-miss.php:55
+#: patterns/process-home2.php:65 patterns/process-home2.php:107
+#: patterns/process-home2.php:151 patterns/process-home2.php:193
+#: patterns/services-home2.php:39 patterns/services-home2.php:63
+#: patterns/services-home2.php:87 patterns/services-home2.php:113
+#: patterns/services-home2.php:137 patterns/services-home2.php:161
+msgid ""
+"raesent feugiat, nunc et congue ultricies, leo lacus vehicula eros, at "
+"ullamcorper erat orci nec turpis. Nulla facilisi. Aliquam erat volutpat"
+msgstr ""
+
+#: patterns/dont-miss-pro.php:55 patterns/dont-miss.php:55
 msgid "Real-Time Analytics"
 msgstr ""
 
@@ -949,54 +1389,92 @@ msgstr ""
 msgid "Recent post"
 msgstr ""
 
-#: inc/admin/theme-info.php:87
+#: inc/admin/theme-info.php:77
 msgid "Responsive Desgin"
 msgstr ""
 
-#: patterns/footer.php:69
+#: patterns/footer.php:93
 msgid "Returns"
 msgstr ""
 
-#: patterns/dont-miss.php:23
+#: patterns/dont-miss-pro.php:23 patterns/dont-miss.php:23
 msgid "Revolutionize Your Digital Experience Today"
 msgstr ""
 
-#: patterns/features.php:160
+#: patterns/banner-pro.php:27
+msgid "Rock Street, San Francisco"
+msgstr ""
+
+#: inc/admin/theme-info.php:259
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: patterns/features-pro.php:142 patterns/features.php:160
 msgid "Secure"
 msgstr ""
 
-#: inc/admin/theme-info.php:169
+#: inc/admin/theme-info.php:113
 msgid "Secure transaction"
 msgstr ""
 
-#: patterns/attributes.php:45
+#: patterns/attributes-pro.php:45 patterns/attributes.php:45
 msgid "Security"
 msgstr ""
 
-#: patterns/attributes.php:111 patterns/features.php:40
+#: patterns/attributes-pro.php:111
+msgid ""
+"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim "
+"ad minim veniam, quis nostrud exercitation ullamco laboris"
+msgstr ""
+
+#: patterns/attributes.php:111 patterns/features-pro.php:37
+#: patterns/features.php:40
 msgid ""
 "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim "
 "ad minim veniam, quis nostrud exercitation ullamco laboris."
 msgstr ""
 
-#: patterns/contact.php:64
+#: patterns/testimonials-pro.php:89 patterns/testimonials.php:41
+#: patterns/testimonials.php:65 patterns/testimonials.php:89
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore "
+"veritatis."
+msgstr ""
+
+#: patterns/testimonials-pro.php:41
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore "
+"veritatis. "
+msgstr ""
+
+#: patterns/contact-pro.php:64 patterns/contact.php:64
 msgid "Send Email"
 msgstr ""
 
-#: inc/admin/theme-info.php:105
+#: inc/admin/theme-info.php:86
 msgid "SEO Friendly"
 msgstr ""
 
-#: patterns/services.php:18
+#: patterns/services-pro.php:18 patterns/services.php:18
 msgid "Services"
 msgstr ""
 
-#: patterns/footer.php:65
+#: patterns/footer.php:89
 msgid "Shipping Policy"
 msgstr ""
 
-#: patterns/features.php:150
+#: patterns/features-pro.php:132 patterns/features.php:150
 msgid "Smart Automation"
+msgstr ""
+
+#: patterns/testimonials-pro.php:94 patterns/testimonials.php:94
+msgid "Sofia Muller"
+msgstr ""
+
+#: patterns/testimonials-pro.php:50 patterns/testimonials.php:50
+msgid "Software Engineer"
 msgstr ""
 
 #: theme.json:1
@@ -1034,21 +1512,52 @@ msgctxt "Space size name"
 msgid "Small"
 msgstr ""
 
-#: patterns/features.php:118 patterns/features.php:202
-#: patterns/features.php:247
+#: patterns/features-pro.php:106 patterns/features.php:118
+#: patterns/features.php:202 patterns/features.php:247
 msgid "Speed"
 msgstr ""
 
-#: inc/admin/theme-info.php:96
-msgid "Speed and Performance"
+#: patterns/features-pro.php:178
+msgid ""
+"Speed\n"
+"Speed"
+msgstr ""
+
+#: patterns/pricing-home2.php:81
+msgid "Standard"
 msgstr ""
 
 #: patterns/dont-miss.php:65
 msgid "Start Free Trial"
 msgstr ""
 
+#: patterns/pricing-pro.php:41 patterns/pricing.php:41
+msgid "Starter"
+msgstr ""
+
+#: patterns/process-home2.php:147
+msgid "STEP FOUR"
+msgstr ""
+
+#: patterns/process-home2.php:61
+msgid "STEP ONE"
+msgstr ""
+
+#: patterns/process-home2.php:189
+msgid "STEP THREE"
+msgstr ""
+
+#: patterns/process-home2.php:103
+msgid "STEP TWO"
+msgstr ""
+
+#: patterns/functions-pro.php:49 patterns/services-pro.php:88
 #: patterns/services.php:88
 msgid "Strategic Planning"
+msgstr ""
+
+#: patterns/process-home2.php:125
+msgid "Strategy Development"
 msgstr ""
 
 #: styles/dark-cyan.json:1
@@ -1071,7 +1580,7 @@ msgctxt "Style variation name"
 msgid "Mid Night Tail"
 msgstr ""
 
-#: styles/mossy-green.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
 msgctxt "Style variation name"
 msgid "Mossy Green"
 msgstr ""
@@ -1081,29 +1590,28 @@ msgctxt "Style variation name"
 msgid "Orange"
 msgstr ""
 
-#: styles/royal-grape.json:1
-msgctxt "Style variation name"
-msgid "Royal Grape"
-msgstr ""
-
 #: styles/vibrant-medium-blue.json:1
 msgctxt "Style variation name"
 msgid "Vibrant Medium Blue"
 msgstr ""
 
-#: patterns/attributes.php:163
+#: patterns/contact-home2.php:44
+msgid "Subject"
+msgstr ""
+
+#: patterns/attributes-pro.php:163 patterns/attributes.php:163
 msgid "SUPPORT"
 msgstr ""
 
-#: patterns/features.php:72
+#: patterns/features-pro.php:67 patterns/features.php:72
 msgid "Support"
 msgstr ""
 
-#: patterns/attributes.php:85
+#: patterns/attributes-pro.php:85 patterns/attributes.php:85
 msgid "support"
 msgstr ""
 
-#: patterns/features.php:296
+#: patterns/features-pro.php:259 patterns/features.php:296
 msgid "Sync"
 msgstr ""
 
@@ -1111,15 +1619,15 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: patterns/features.php:279
+#: patterns/call-to-action.php:20
+msgid "Take Business to the Next Level"
+msgstr ""
+
+#: patterns/features-pro.php:243 patterns/features.php:279
 msgid "Team Collaboration"
 msgstr ""
 
-#: patterns/banner.php:85
-msgid "Team Members"
-msgstr ""
-
-#: patterns/features.php:289
+#: patterns/features-pro.php:253 patterns/features.php:289
 msgid "Team work"
 msgstr ""
 
@@ -1133,44 +1641,52 @@ msgctxt "Template part name"
 msgid "Header"
 msgstr ""
 
-#: inc/admin/theme-info.php:336
-msgid "Templates and block patterns"
-msgstr ""
-
-#: patterns/footer.php:97
+#: patterns/footer.php:129
 msgid "Terms"
 msgstr ""
 
-#: inc/admin/theme-info.php:326
-msgid "Testimonials(block)"
+#: patterns/testimonials-pro.php:18 patterns/testimonials.php:18
+msgid "Testimonials"
 msgstr ""
 
 #: inc/admin/theme-notice.php:6
 msgid "Theme Info"
 msgstr ""
 
-#: patterns/banner.php:35
-msgid "Transform your Digital Presence"
+#: patterns/contact-home2.php:32
+msgid "This field is required"
 msgstr ""
 
-#: patterns/services.php:37
+#: patterns/contact-home2.php:38 patterns/contact-home2.php:44
+#: patterns/contact-home2.php:48
+msgid "This field is required."
+msgstr ""
+
+#: patterns/services-pro.php:37 patterns/services.php:37
 msgid "Transforming Ideas into Outstanding Results"
+msgstr ""
+
+#: patterns/banner.php:46
+msgid "TRANSFORMING VISION INTO VALUE"
 msgstr ""
 
 #. Author of the theme
 msgid "Trendthemeswp"
 msgstr ""
 
-#: inc/admin/theme-info.php:280
+#: patterns/call-to-action.php:32
+msgid "Try It Now"
+msgstr ""
+
+#: inc/admin/theme-info.php:200
 msgid "Typography and color options"
 msgstr ""
 
-#: inc/admin/theme-info.php:98
-msgid "Ultra fast and Lightweight"
+#: patterns/testimonials-pro.php:98 patterns/testimonials.php:98
+msgid "UI/UX Designer"
 msgstr ""
 
-#: inc/admin/theme-info.php:70 inc/admin/theme-info.php:282
-#: inc/admin/theme-info.php:319 inc/admin/theme-info.php:347
+#: inc/admin/theme-info.php:202
 msgid "Unlimited"
 msgstr ""
 
@@ -1186,30 +1702,52 @@ msgstr ""
 msgid "UPTIME"
 msgstr ""
 
-#: patterns/features.php:61
+#: patterns/features-pro.php:57 patterns/features.php:61
 msgid "Uptime"
 msgstr ""
 
-#: patterns/services.php:144
+#: patterns/services-pro.php:144 patterns/services.php:144
 msgid "User Experience Design"
 msgstr ""
 
-#: patterns/attributes.php:153
+#: patterns/attributes-pro.php:153 patterns/attributes.php:153
 msgid "USERS"
 msgstr ""
 
+#: patterns/attributes-pro.php:117 patterns/attributes-pro.php:121
+#: patterns/attributes-pro.php:127 patterns/attributes-pro.php:131
 #: patterns/attributes.php:117 patterns/attributes.php:121
 #: patterns/attributes.php:127 patterns/attributes.php:131
+#: patterns/pricing-pro.php:54 patterns/pricing-pro.php:58
+#: patterns/pricing-pro.php:62 patterns/pricing-pro.php:96
+#: patterns/pricing-pro.php:100 patterns/pricing-pro.php:104
+#: patterns/pricing-pro.php:138 patterns/pricing-pro.php:142
+#: patterns/pricing-pro.php:146
 msgid "Ut varius tincidunt libero Curabitur"
 msgstr ""
 
+#: patterns/pricing.php:54 patterns/pricing.php:58 patterns/pricing.php:62
+#: patterns/pricing.php:96 patterns/pricing.php:100 patterns/pricing.php:104
+#: patterns/pricing.php:138 patterns/pricing.php:142 patterns/pricing.php:146
+msgid "Ut varius tincidunt libero Curabitur "
+msgstr ""
+
 #: patterns/about-us.php:50 patterns/about-us.php:64 patterns/about-us.php:80
-#: patterns/about-us.php:94 patterns/contact.php:27 patterns/features.php:30
-#: patterns/services.php:27
+#: patterns/about-us.php:94 patterns/aboutus-pro.php:50
+#: patterns/aboutus-pro.php:64 patterns/contact-pro.php:27
+#: patterns/contact.php:27 patterns/features-pro.php:27
+#: patterns/features.php:30 patterns/pricing-pro.php:27 patterns/pricing.php:27
+#: patterns/services-pro.php:27 patterns/services.php:27
+#: patterns/testimonials.php:27
 msgid "Ut varius tincidunt libero. Curabitur at lacus ac velit"
 msgstr ""
 
-#: patterns/dont-miss.php:27 patterns/services.php:41
+#: patterns/testimonials-pro.php:27
+msgid "Ut varius tincidunt libero. Curabitur at lacus ac velit "
+msgstr ""
+
+#: patterns/dont-miss-pro.php:27 patterns/dont-miss.php:27
+#: patterns/services-pro.php:41 patterns/services.php:41
 msgid ""
 "Ut varius tincidunt libero. Curabitur at lacus ac velit experiences that "
 "drive meaningful growth for your business. Our dedicated team combines "
@@ -1217,21 +1755,59 @@ msgid ""
 "difference."
 msgstr ""
 
-#: patterns/about-us.php:35 patterns/banner.php:40
+#: patterns/contact-home2.php:24 patterns/post-list.php:24
+#: patterns/pricing-home2.php:24
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum"
+msgstr ""
+
+#: patterns/process-home2.php:24
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum "
+msgstr ""
+
+#: patterns/about-us.php:35 patterns/aboutus-pro.php:35
+#: patterns/banner-home2.php:28 patterns/banner-pro.php:78
+#: patterns/banner.php:51
 msgid ""
 "Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
 "Phasellus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et"
 msgstr ""
 
+#: patterns/aboutus-home2.php:37 patterns/call-to-action.php:25
+#: patterns/portfolio.php:24 patterns/services-home2.php:24
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et "
+"Vestibulum ante ipsum primis in faucibus orci luctus et"
+msgstr ""
+
+#: patterns/features-pro.php:100 patterns/features-pro.php:136
+#: patterns/features-pro.php:172 patterns/features-pro.php:211
+#: patterns/features-pro.php:247 patterns/features-pro.php:283
 #: patterns/features.php:112 patterns/features.php:154
 #: patterns/features.php:196 patterns/features.php:241
-#: patterns/features.php:283 patterns/features.php:325 patterns/services.php:74
-#: patterns/services.php:92 patterns/services.php:110 patterns/services.php:130
-#: patterns/services.php:148 patterns/services.php:166 patterns/team.php:62
+#: patterns/features.php:283 patterns/features.php:325
+#: patterns/services-pro.php:74 patterns/services-pro.php:92
+#: patterns/services-pro.php:110 patterns/services-pro.php:130
+#: patterns/services-pro.php:148 patterns/services-pro.php:166
+#: patterns/services.php:74 patterns/services.php:92 patterns/services.php:110
+#: patterns/services.php:130 patterns/services.php:148
+#: patterns/services.php:166 patterns/team-pro.php:62 patterns/team-pro.php:96
+#: patterns/team-pro.php:130 patterns/team-pro.php:164 patterns/team.php:62
 #: patterns/team.php:96 patterns/team.php:130 patterns/team.php:164
 msgid ""
 "Ut varius tincidunt libero. Curabitur at lacus ac velit velit esse cillum "
 "dolore eu fugiat nulla pariatur excepteur sint."
+msgstr ""
+
+#: patterns/faq-pro.php:63
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit velit esse cillum "
+"dolore eu fugiat nulla pariatur excepteur sint. Vestibulum ante ipsum primis "
+"in faucibus orci luctus et ultrices posuere cubilia Curae;"
 msgstr ""
 
 #: patterns/faq.php:60
@@ -1244,10 +1820,77 @@ msgid ""
 "sed sit amet dui."
 msgstr ""
 
-#: patterns/contact.php:44
+#: patterns/portfolio.php:90
+msgid "Venture Projects"
+msgstr ""
+
+#: patterns/pricing-home2.php:19
+msgid "View our pricing plans"
+msgstr ""
+
+#: patterns/contact-pro.php:44 patterns/contact.php:44
 msgid "Visit Our Office"
 msgstr ""
 
-#: patterns/services.php:33
+#: patterns/faq-pro.php:23
+msgid ""
+"We analyze your goals, assess challenges, develop custom strategies, and "
+"collaborate closely throughout implementation to ensure effective, "
+"sustainable, and result-driven solutions."
+msgstr ""
+
+#: patterns/faq-pro.php:17
+msgid ""
+"We offer strategic consulting, business planning, digital solutions, project "
+"management, and operational improvements tailored to help clients achieve "
+"measurable growth."
+msgstr ""
+
+#: patterns/faq-pro.php:29
+msgid ""
+"We serve a wide range of industries including finance, healthcare, "
+"technology, education, retail, and manufacturing with specialized, industry-"
+"specific consulting solutions."
+msgstr ""
+
+#: patterns/faq-pro.php:34
+msgid "What are your fees?"
+msgstr ""
+
+#: patterns/faq-pro.php:16
+msgid "What services do you offer?"
+msgstr ""
+
+#: patterns/services-pro.php:33 patterns/services.php:33
 msgid "WHAT WE DO"
+msgstr ""
+
+#: patterns/banner-pro.php:73
+msgid "With Creativity"
+msgstr ""
+
+#: patterns/banner-pro.php:73
+msgid "With Excellence"
+msgstr ""
+
+#: patterns/banner-pro.php:73
+msgid "With Innovation"
+msgstr ""
+
+#: patterns/banner-pro.php:73
+msgid "With Strategy"
+msgstr ""
+
+#: patterns/features-home2.php:27
+msgid "Years of Experiene"
+msgstr ""
+
+#: patterns/footer.php:147
+msgid "© Copyright"
+msgstr ""
+
+#: patterns/testimonials-pro.php:37 patterns/testimonials-pro.php:61
+#: patterns/testimonials-pro.php:85 patterns/testimonials.php:37
+#: patterns/testimonials.php:61 patterns/testimonials.php:85
+msgid "★★★★★"
 msgstr ""

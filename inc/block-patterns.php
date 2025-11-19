@@ -17,6 +17,7 @@ function corvona_register_block_patterns()
 {
 	$block_pattern_categories = array(
 		'corvona' => array('label' => esc_html__('corvona', 'corvona')),
+		'corvona-pro' => array('label' => esc_html__('Corvona Pro', 'corvona'))
 	);
 
 	/**

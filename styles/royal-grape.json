@@ -1,25 +1,20 @@
 {
   "version": 2,
-  "title": "Royal Grape",
+  "title": "Mossy Green",
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "settings": {
     "appearanceTools": true,
     "color": {
-      "palette": [
-        {
-          "slug": "assets-one",
-          "color": "#5A3A74",
-          "name": "Assets One"
-        },
-        {
-          "slug": "assets-two",
-          "color": "#33144c",
-          "name": "Assets Two"
-        },
+       "palette": [
         {
           "slug": "primary",
           "color": "#001630",
           "name": "Primary"
+        },
+        {
+          "slug": "assets-one",
+          "color": "#5A3A74",
+          "name": "Assets One"
         },
         {
           "slug": "base",
@@ -30,7 +25,7 @@
           "slug": "contrast",
           "color": "#595959",
           "name": "Contrast"
-        },
+        },        
         {
           "slug": "secondary",
           "color": "#00a0d2",
@@ -61,7 +56,12 @@
           "color": "#097770",
           "name": "Theme"
         },
-
+        
+        {
+          "slug": "assets-two",
+          "color": "#33144c",
+          "name": "Assets Two"
+        },
         {
           "slug": "assets-three",
           "color": "#111827",
@@ -82,31 +82,32 @@
           "color": "#0E3530",
           "name": "Assets Six"
         },
-        {
+         {
           "slug": "assets-seven",
           "color": "#eeeeee",
           "name": "Assets Seven"
         },
-        {
+         {
           "slug": "assets-eight",
           "color": "#1a1a19",
           "name": "Assets Eight"
         },
-        {
+         {
           "slug": "assets-nine",
           "color": "#2c2c2c",
           "name": "Assets Nine"
         },
-        {
+         {
           "slug": "assets-ten",
           "color": "#eeecf3",
           "name": "Assets Ten"
         },
-        {
+         {
           "slug": "assets-eleven",
           "color": "#181818",
           "name": "Assets Eleven"
         }
+
       ]
     }
   }

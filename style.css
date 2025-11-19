@@ -1,9 +1,9 @@
 /*
-Theme Name: Corvona
-Theme URI: https://trendthemeswp.com/products/corvona/
+Theme Name: Corvona Pro
+Theme URI: https://trendthemeswp.com/products/corvona-pro/
 Author: Trendthemeswp 
 Author URI: https://trendthemeswp.com
-Description: Corvona is a clean, minimal, and performance-focused Full Site Editing (FSE) WordPress theme designed to help you build modern, professional, and visually appealing websites—without writing a single line of code. Fully powered by the WordPress block editor, Corvona allows you to design unique layouts and customize every part of your site, including headers, footers, templates, and global styles. This lightweight and speed-optimized theme is perfect for blogs, small businesses, startups, agencies, law firms, consulting companies, digital marketing teams, IT solutions, SaaS products, fintech firms, tech companies, and a wide range of corporate and business websites.Corvona comes packed with multiple templates, custom patterns, and style variations, making it incredibly flexible and easy to adapt to any brand identity or business need. Whether you're building a clean minimalist site or a bold corporate presence, Corvona helps you achieve a polished result effortlessly. Check the real demo:  https://demos.trendthemeswp.com/corvona
+Description: Corvona Pro is the advanced, feature-rich premium version of the Corvona theme — designed for users who want greater flexibility, enhanced performance, and complete creative control over their WordPress websites. Built on Full Site Editing (FSE) technology and powered entirely by the block editor, Corvona Pro unlocks a new level of customization with exclusive tools, premium layouts, and professional design options. Whether you're building a corporate site, agency portfolio, consulting website, SaaS landing page, blog, or business platform, Corvona Pro helps you create stunning, high-performing websites effortlessly—without writing a single line of code. Check the real demo:  https://demos.trendthemeswp.com/corvona-pro
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.4
@@ -161,7 +161,6 @@ form .wp-block-search__input {
     margin-left: 15px;
     padding: 3px 10px;
     float: right;
-    font-size: 19px;
     line-height: 1;
     position: absolute;
     right: 0;
@@ -321,7 +320,7 @@ form .wp-block-search__input {
   border-radius: 7px;
 }
 .has-box-shadow {
-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .pricing-icon::before {
   font-family: "Font Awesome 5 Free";
@@ -361,37 +360,132 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 } */
 
 #wptravel-scroll-to-top {
-   background: var(--wp--preset--color--assets-one)!important;
-   border: none!important;
-   cursor: pointer;
+  background: var(--wp--preset--color--assets-one) !important;
+  border: none !important;
+  cursor: pointer;
 }
 
-.location-icon::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    content: '\f3c5';
-	   margin-right: 9px;
+.location-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f3c5";
+  margin-right: 9px;
 }
-
 
 /*firmore start*/
-.list:before{
+.list:before {
   content: "\f058";
   font-family: "Font Awesome 5 Free";
   margin-right: 8px;
   font-weight: 600;
   color: var(--wp--preset--color--assets-one);
 }
-.star:before{
+.star:before {
   content: "\f005";
   font-family: "Font Awesome 5 Free";
   margin-right: 8px;
   font-weight: 600;
   color: var(--wp--preset--color--assets-one);
 }
-.overlap-img figure{
+.overlap-img figure {
   margin-left: -15px;
 }
-.faq-border{
+.faq-border {
   border-radius: 12px;
+}
+/* sticky header start*/
+
+@media screen and (min-width: 600px) {
+  .wb-header-wrapper.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background: #141421 !important;
+  }
+}
+
+/* sticky header end */
+/* scrool to top */
+.corvona-scrool-top::before {
+  font-size: 30px;
+  cursor: pointer;
+  background: var(--wp--preset--color--assets-one);
+  color: var(--wp--preset--color--base);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f077";
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  z-index: 99;
+}
+/* scrool to top */
+
+.wp-block-button__link.has-base-color:after {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  padding-left: 6px;
+  font-size: 16px;
+}
+.contact-button .wp-block-button__link:after {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  padding-left: 6px;
+  font-size: 16px;
+}
+.horizental-line-header {
+  color: #ededed1f;
+}
+
+.contact-icon::before {
+  cursor: pointer;
+  color: var(--wp--preset--color--link-color);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f095";
+  padding-right: 5px;
+}
+
+.mail-icon::before {
+  cursor: pointer;
+  color: var(--wp--preset--color--link-color);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f0e0";
+  padding-right: 5px;
+}
+
+ .wp-block-navigation__responsive-container {
+    background: #141421 !important;
+  }
+@media only screen and (max-width: 600px) {
+  .wp-block-navigation__responsive-container {
+    width: 68%;
+  }
+}
+.wp-block-navigation-item__content{
+  padding: 8px 16px!important;
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{
+  background: #141421 !important;
+  padding: 7px;
+  color:var(--wp--preset--color--base)!important ;m
+}
+.wp-block-navigation__submenu-icon.wp-block-navigation-submenu__toggle{
+  padding-left: 5px;
+}
+.wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
+    color:var(--wp--preset--color--base)!important ;
 }

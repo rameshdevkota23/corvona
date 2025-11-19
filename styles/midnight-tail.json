@@ -7,19 +7,14 @@
     "color": {
       "palette": [
         {
-          "slug": "assets-one",
-          "color": "#08514D",
-          "name": "Assets One"
-        },
-        {
-          "slug": "assets-two",
-          "color": "#0d312f",
-          "name": "Assets Two"
-        },
-        {
           "slug": "primary",
           "color": "#2b1570",
           "name": "Primary"
+        },
+        {
+          "slug": "assets-one",
+          "color": "#08514D",
+          "name": "Assets One"
         },
         {
           "slug": "base",
@@ -62,6 +57,11 @@
           "name": "Theme"
         },
 
+        {
+          "slug": "assets-two",
+          "color": "#0d312f",
+          "name": "Assets Two"
+        },
         {
           "slug": "assets-three",
           "color": "#111827",

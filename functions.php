@@ -16,6 +16,45 @@
  *
  * @return void
  */
+if ( ! function_exists( 'cor_fs' ) ) {
+    // Create a helper function for easy SDK access.
+    function cor_fs() {
+        global $cor_fs;
+
+        if ( ! isset( $cor_fs ) ) {
+            // Include Freemius SDK.
+            require_once dirname( __FILE__ ) . '/inc/freemius/start.php';
+
+            $cor_fs = fs_dynamic_init( array(
+                'id'                  => '21831',
+                'slug'                => 'corvona',
+                'type'                => 'theme',
+                'public_key'          => 'pk_b5d6e2d2c82a5770b154d959077b3',
+                'is_premium'          => true,
+                'is_premium_only'     => true,
+                'has_addons'          => false,
+                'has_paid_plans'      => true,
+                // Automatically removed in the free version. If you're not using the
+                // auto-generated free version, delete this line before uploading to wp.org.
+                'wp_org_gatekeeper'   => 'OA7#BoRiBNqdf52FvzEf!!074aRLPs8fspif$7K1#4u4Csys1fQlCecVcUTOs2mcpeVHi#C2j9d09fOTvbC0HloPT7fFee5WdS3G',
+                'trial'               => array(
+                    'days'               => 3,
+                    'is_require_payment' => true,
+                ),
+                'menu'                => array(
+                    'support'        => false,
+                ),
+            ) );
+        }
+
+        return $cor_fs;
+    }
+
+    // Init Freemius.
+    cor_fs();
+    // Signal that SDK was initiated.
+    do_action( 'cor_fs_loaded' );
+}
 
 if (! function_exists('corvona_support')) :
 	/**
@@ -78,6 +117,9 @@ add_action('admin_enqueue_scripts', 'corvona_admin_styles');
 // enqueue dashicons
 add_action('enqueue_block_assets', function (): void {
 	wp_enqueue_style('dashicons');
+	wp_enqueue_script('corvona-main-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
+	wp_enqueue_script('corvona-custom.js', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '1.0.0', true);
+
 });
 
 function corvona_excerpt_length($length)
@@ -88,14 +130,12 @@ function corvona_excerpt_length($length)
 	return $excerpt_length;
 }
 add_filter('excerpt_length', 'corvona_excerpt_length');
+// tgm-plugin
+require get_template_directory() . '/inc/tgm-plugin/tgmpa-hook.php';
 
 
 // add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
-
-
-// admin Info
-require get_template_directory() . '/class/admin-info.php';
 
 /**
  * Register block styles.

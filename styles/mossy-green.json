@@ -6,23 +6,18 @@
     "appearanceTools": true,
     "color": {
        "palette": [
-         
          {
-           "slug": "assets-one",
-           "color": "#3e4e06",
-           "name": "Assets One"
-          },
-          {
-            "slug": "assets-two",
-            "color": "#0d312f",
-            "name": "Assets Two"
-          },
-          {
-           "slug": "primary",
-           "color": "#011f21",
-           "name": "Primary"
-         },
-          {
+          "slug": "primary",
+          "color": "#011f21",
+          "name": "Primary"
+        },
+      
+        {
+          "slug": "assets-one",
+          "color": "#3e4e06",
+          "name": "Assets One"
+        },
+        {
           "slug": "base",
           "color": "#fff",
           "name": "Base"
@@ -62,6 +57,11 @@
           "slug": "Theme",
           "color": "#097770",
           "name": "Theme"
+        },
+        {
+          "slug": "assets-two",
+          "color": "#0d312f",
+          "name": "Assets Two"
         },
         {
           "slug": "assets-three",

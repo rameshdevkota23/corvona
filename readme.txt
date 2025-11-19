@@ -1,4 +1,4 @@
-=== Corvona ===
+=== Corvona Pro ===
 
 Contributors: Trendthemeswp
 Author: Trendthemeswp
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio
 
 == Description ==
-Corvona is a clean, minimal, and performance-focused Full Site Editing (FSE) WordPress theme designed to help you build modern, professional, and visually appealing websites—without writing a single line of code. Fully powered by the WordPress block editor, Corvona allows you to design unique layouts and customize every part of your site, including headers, footers, templates, and global styles. This lightweight and speed-optimized theme is perfect for blogs, small businesses, startups, agencies, law firms, consulting companies, digital marketing teams, IT solutions, SaaS products, fintech firms, tech companies, and a wide range of corporate and business websites.Corvona comes packed with multiple templates, custom patterns, and style variations, making it incredibly flexible and easy to adapt to any brand identity or business need. Whether you're building a clean minimalist site or a bold corporate presence, Corvona helps you achieve a polished result effortlessly. Check the real demo:  https://demos.trendthemeswp.com/corvona
+Corvona Pro is the advanced, feature-rich premium version of the Corvona theme — designed for users who want greater flexibility, enhanced performance, and complete creative control over their WordPress websites. Built on Full Site Editing (FSE) technology and powered entirely by the block editor, Corvona Pro unlocks a new level of customization with exclusive tools, premium layouts, and professional design options. Whether you're building a corporate site, agency portfolio, consulting website, SaaS landing page, blog, or business platform, Corvona Pro helps you create stunning, high-performing websites effortlessly—without writing a single line of code. Check the real demo:  https://demos.trendthemeswp.com/corvona-pro
 
 == Installation ==
 
@@ -22,7 +22,7 @@ Corvona is a clean, minimal, and performance-focused Full Site Editing (FSE) Wor
 
 == Copyright ==
 
-Corvona WordPress Theme, Copyright 2023 Trendthemeswp
+Corvona pro WordPress Theme, Copyright 2023 Trendthemeswp
 Corvona is distributed under the terms of the GNU GPL
 
 == Resources ==
@@ -35,8 +35,7 @@ Image for theme screenshot, Copyright Pxhere
 
 * Screenshot Image, Copyright Pxhere
   License: CC0 1.0 Universal (CC0 1.0)
-  Source: https://pxhere.com/en/photo/1695958
-  Source: https://pxhere.com/en/photo/1420050
+  Source: https://pxhere.com/en/photo/496230#google_vignette
 
 * About Us, Copyright Pxhere
   License: CC0 1.0 Universal (CC0 1.0)
@@ -46,17 +45,13 @@ Image for theme screenshot, Copyright Pxhere
   License: CC0 1.0 Universal (CC0 1.0)
   Source: https://pxhere.com/en/photo/1437667
 
-* Functions, Copyright Pxhere
+* Testimonials, Copyright Pxhere
   License: CC0 1.0 Universal (CC0 1.0)
   Source: https://pxhere.com/en/photo/815849
 
-* Team, Copyright Pxhere
+* Testimonials, Copyright Pxhere
   License: CC0 1.0 Universal (CC0 1.0)
   Source: https://pxhere.com/en/photo/459413
-
-* Footer Copyright Pxhere
-  License: CC0 1.0 Universal (CC0 1.0)
-  Source: https://pxhere.com/en/photo/496230#google_vignette
 
 * All Icon Images used on service section are fontawesome icons.
 
@@ -72,4 +67,6 @@ Image for theme screenshot, Copyright Pxhere
   Font URL: https://fonts.google.com/specimen/Raleway
 
 = 1.0.0 =
-* Initial release.
+* Initial release
+
+

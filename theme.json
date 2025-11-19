@@ -6,19 +6,14 @@
     "color": {
       "palette": [
         {
-          "slug": "assets-one",
-          "color": "#524dd3",
-          "name": "Assets One"
-        },
-        {
-          "slug": "assets-two",
-          "color": "#423ccf",
-          "name": "Assets Two"
-        },
-        {
           "slug": "primary",
           "color": "#111",
           "name": "Primary"
+        },
+        {
+          "slug": "assets-one",
+          "color": "#0D9488",
+          "name": "Assets One"
         },
         {
           "slug": "base",
@@ -60,6 +55,12 @@
           "slug": "Theme",
           "color": "#097770",
           "name": "Theme"
+        },
+
+        {
+          "slug": "assets-two",
+          "color": "#14B8A6",
+          "name": "Assets Two"
         },
         {
           "slug": "assets-three",
@@ -232,38 +233,52 @@
       "fontFamilies": [
         {
           "fontFace": [
-            {
-              "fontFamily": "Raleway",
+      {
+              "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "400",
-              "src": ["file:./assets/fonts/raleway-Regular.ttf"]
+              "src": ["file:./assets/fonts/inter/Inter-Regular.ttf"]
             },
             {
-              "fontFamily": "Raleway",
+              "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "600",
-              "src": ["file:./assets/fonts/raleway-Medium.ttf"]
+              "src": ["file:./assets/fonts/inter/Inter-SemiBold.ttf"]
             },
             {
-              "fontFamily": "Raleway",
+              "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "700",
-              "src": ["file:./assets/fonts/raleway-SemiBold.ttf"]
+              "src": ["file:./assets/fonts/inter/Inter-SemiBold.ttf"]
             },
             {
-              "fontFamily": "Raleway",
+              "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "800",
-              "src": ["file:./assets/fonts/raleway-Bold.ttf"]
+              "src": ["file:./assets/fonts/inter/Inter-ExtraBold.ttf"]
             }
           ],
-          "fontFamily": "\"raleway\", sans-serif",
-          "name": "Raleway",
+         "fontFamily": "\"Inter\", sans-serif",
+          "name": "Inter",
           "slug": "body"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "caveat",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/caveat/Caveat-Regular.ttf"]
+            }
+          ],
+          "fontFamily": "\"Caveat\", cursive",
+          "name": "Caveat",
+          "slug": "caveat"
         }
       ],
       "fontSizes": [
