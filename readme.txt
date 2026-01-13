@@ -66,10 +66,10 @@ Image for theme screenshot, Copyright Pxhere
     * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
     * License - https://fontawesome.com/license/free (Icons: CC BY 4.0)
 
-* Raleway Font  
-  Source: https://github.com/impallari/Raleway  
-  License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1  
-  Font URL: https://fonts.google.com/specimen/Raleway
-
+* Inter Font
+        Source: https://github.com/rsms/inter
+        License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+        Font Url: https://fonts.google.com/specimen/Inter
+        
 = 1.0.0 =
 * Initial release.

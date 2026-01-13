@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Functions and definitions
  *
@@ -7,14 +6,6 @@
  *
  * @package corvona
  * @since 1.0.0
- */
-
-/**
- * Enqueue the CSS files.
- *
- * @since 1.0.0
- *
- * @return void
  */
 
 if (! function_exists('corvona_support')) :
@@ -63,39 +54,22 @@ function corvona_styles()
 }
 add_action('wp_enqueue_scripts', 'corvona_styles');
 
-// admin style
-function corvona_admin_styles()
-{
-	wp_enqueue_style(
-		'corvona-admin-style',
-		get_template_directory_uri() . '/assets/css/theme-info.css',
-		[],
-		wp_get_theme()->get('Version')
-	);
-}
-add_action('admin_enqueue_scripts', 'corvona_admin_styles');
-
 // enqueue dashicons
 add_action('enqueue_block_assets', function (): void {
 	wp_enqueue_style('dashicons');
 });
 
-function corvona_excerpt_length($length)
-{
+function corvona_excerpt_length( $length ) {
 
-	$excerpt_length = 20;
-	if (is_admin()) return $length;
-	return $excerpt_length;
+	if ( is_admin() ) {
+		return $length;
+	}
+	return 20;
 }
-add_filter('excerpt_length', 'corvona_excerpt_length');
-
+add_filter( 'excerpt_length', 'corvona_excerpt_length' );
 
 // add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
-
-
-// admin Info
-require get_template_directory() . '/class/admin-info.php';
 
 /**
  * Register block styles.
