@@ -68,8 +68,23 @@ function corvona_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'corvona_excerpt_length' );
 
+// admin style
+function corvona_admin_styles()
+{
+	wp_enqueue_style(
+		'entervia-admin-style',
+		get_template_directory_uri() . '/assets/css/theme-info.css',
+		[],
+		wp_get_theme()->get('Version')
+	);
+}
+add_action('admin_enqueue_scripts', 'corvona_admin_styles');
+
 // add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+// admin Info
+require get_template_directory() . '/class/admin-info.php';
 
 /**
  * Register block styles.
