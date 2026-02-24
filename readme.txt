@@ -79,3 +79,6 @@ Image for theme screenshot, Copyright Pxhere
 
 = 1.0.2 =
 * Added theme info.
+
+= 1.0.3 =
+* Fixed General issues.

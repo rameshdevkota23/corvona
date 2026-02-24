@@ -15,7 +15,7 @@ $free_theme_name = str_replace( ' Pro', '',$theme_name );
                     <?php echo esc_html( $theme->Name ); ?>
                 </h2>
                 <p>
-                    <?php esc_html_e( 'Entervia - A Multipurpose, browser & device-friendly Full Site Editing Theme for WordPress', 'corvona' ); ?>
+                    <?php esc_html_e( 'Corvona - A Multipurpose, browser & device-friendly Full Site Editing Theme for WordPress', 'corvona' ); ?>
                 </p>
 
             </div>
@@ -40,7 +40,7 @@ $free_theme_name = str_replace( ' Pro', '',$theme_name );
                             </h3>
                             <p class="corvona-compare-table-subtitle"><a href="<?php echo $pro_purchase_url; ?>"
                                     target="__blank">
-                                    <?php echo esc_html( 'Get Entervia Pro', 'corvona' ); ?>
+                                    <?php echo esc_html( 'Get Corvona Pro', 'corvona' ); ?>
                                     <i class="dashicons dashicons-arrow-right-alt"></i>
                                 </a></p>
                             <table>
